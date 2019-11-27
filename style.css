@@ -2,3 +2,42 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    text-align: center;
+    min-width: 500px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.action {
+    background-color: dodgerblue;
+}
+
+.thriller {
+    background-color: rgb(190, 178, 178);
+    flex-grow: 10;
+}
+
+.comedy {
+    background-color: rgb(255, 214, 30);
+    flex-grow: 10;
+}
+
+.horror {
+    color: aliceblue;
+    background-color: black;
+}
+
+.drama {
+    background-color: darkgrey;
+}
+
+.romance {
+    background-color: red;
+}
